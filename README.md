@@ -1,3 +1,3 @@
 # README
 
-A simple CRUD blog app using built on Rails
+A simple CRUD blog app built on Rails
