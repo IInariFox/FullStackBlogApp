@@ -1,0 +1,9 @@
+<div class="container" id="home-container">
+	<div class="mt-4 p-5 bg-primary text-white rounded jumbotron">
+		<h1>Blog App</h1>
+		<p>Write Your Story</p>
+		<% if !(isLoggedin) %>
+		<%= link_to "SignUp", signup_path, class:"btn btn-success" %>
+		<% end %>
+	</div>
+</div>
