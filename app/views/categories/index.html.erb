@@ -1,6 +1,38 @@
 <div class="container">
 	<h1  class="text-center mt-4">All Categories</h1>
 	<div class="row justify-content-md-center">
+  <div class="row justify-content-md-center">
+		<div class="col-lg-6 col-md-8 col-sm-12">
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/1">Sports</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/2">Physical fitness</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/3">Lifestyle</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/4">Food</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/5">Fashion</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/6">Music</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/7">Finance</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/8">Political</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/9">Parenting</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/10">Business</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/11">Personal</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/12">Travel</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/13">Nishi Fun</a>
+
+				<a class="badge rounded-pill bg-info text-dark" style="text-decoration:none" href="/categories/14">Fun</a>
+
+		</div>
+	</div>
 		<div class="col-lg-6 col-md-8 col-sm-12">
 			<% @categories.each_with_index do |category,index| %>
 				<%= render "category", category:category %>
